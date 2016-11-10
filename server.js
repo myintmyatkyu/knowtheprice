@@ -15,4 +15,4 @@ router.get("/",function(req,res){
 app.use("/",router);
 app.use('/views', express.static('views'))
 
-app.listen(5000);
+app.listen(process.env.PORT || 5000);
