@@ -1,0 +1,19 @@
+{
+  "name": "knowtheprice",
+  "version": "1.0.0",
+  "description": "Just know the price",
+  "main": "server.js",
+  "scripts": {
+    "start" : "node Server.js"
+  },
+  "dependencies" : {
+    "express" : "latest"
+  },
+  "keywords": [
+    "know the price",
+    "myanmar"
+  ],
+  
+  "author": "Danny Archer",
+  "license": "MIT"
+}
