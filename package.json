@@ -4,7 +4,7 @@
   "description": "Just know the price",
   "main": "server.js",
   "scripts": {
-    "start" : "node Server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies" : {
     "express" : "latest"
@@ -15,5 +15,8 @@
   ],
   
   "author": "Danny Archer",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": "4.1.1"
+  }
 }

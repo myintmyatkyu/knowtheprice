@@ -15,7 +15,4 @@ router.get("/",function(req,res){
 app.use("/",router);
 app.use('/views', express.static('views'))
 
-
-app.listen(8080,function(){
-  console.log("art.com @ Port 8080");
-});
+app.listen(5000);
